@@ -1,0 +1,257 @@
+{
+  "Library": "uPVC",
+  "Pipe_Spec": {
+    "PN6": [
+      {
+        "Size": "63mm",
+        "Desc": "Ống uPVC PN6, đường kính ngoài 63mm",
+        "Type": "Straight Pipe",
+        "Comptype": "Pipe",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "1.9mm",
+          "Length": "6m",
+          "Weight": "0.68 kg/m"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AA001a0603",
+        "GUID": "123e4567-e89b-12d3-a456-426614174001"
+      },
+      {
+        "Size": "110mm",
+        "Desc": "Ống uPVC PN6, đường kính ngoài 110mm",
+        "Type": "Straight Pipe",
+        "Comptype": "Pipe",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "110mm",
+          "Wall_Thickness": "2.2mm",
+          "Length": "6m",
+          "Weight": "1.46 kg/m"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AA002a1106",
+        "GUID": "123e4567-e89b-12d3-a456-426614174002"
+      }
+    ],
+    "PN8": [
+      {
+        "Size": "63mm",
+        "Desc": "Ống uPVC PN8, đường kính ngoài 63mm",
+        "Type": "Straight Pipe",
+        "Comptype": "Pipe",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "2.5mm",
+          "Length": "6m",
+          "Weight": "0.89 kg/m"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AB001b0608",
+        "GUID": "123e4567-e89b-12d3-a456-426614174003"
+      },
+      {
+        "Size": "110mm",
+        "Desc": "Ống uPVC PN8, đường kính ngoài 110mm",
+        "Type": "Straight Pipe",
+        "Comptype": "Pipe",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "110mm",
+          "Wall_Thickness": "3.2mm",
+          "Length": "6m",
+          "Weight": "1.82 kg/m"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AB002b1108",
+        "GUID": "123e4567-e89b-12d3-a456-426614174004"
+      }
+    ]
+  },
+  "Fittings_Spec": {
+    "PN6": [
+      {
+        "Size": "63mm",
+        "Desc": "Nắp chụp uPVC PN6",
+        "Type": "CAP",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "1.9mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.15 kg"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AC001c0603",
+        "GUID": "123e4567-e89b-12d3-a456-426614174005"
+      },
+      {
+        "Size": "63mm",
+        "Desc": "Cút nối uPVC PN6, 90 độ",
+        "Type": "Elbow",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "1.9mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.25 kg"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AC002c0603",
+        "GUID": "123e4567-e89b-12d3-a456-426614174006"
+      },
+      {
+        "Size": "63mm",
+        "Desc": "Tê uPVC PN6",
+        "Type": "TEE",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "1.9mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.30 kg"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AC003c0603",
+        "GUID": "123e4567-e89b-12d3-a456-426614174007"
+      },
+      {
+        "Size": "63mm x 50mm",
+        "Desc": "Tê giảm uPVC PN6",
+        "Type": "Reducing Tee",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Main_Diameter": "63mm",
+          "Branch_Diameter": "50mm",
+          "Wall_Thickness": "1.9mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.28 kg"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AC004c6350",
+        "GUID": "123e4567-e89b-12d3-a456-426614174008"
+      },
+      {
+        "Size": "63mm x 50mm",
+        "Desc": "Ống giảm uPVC PN6",
+        "Type": "Reducer",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Large_Diameter": "63mm",
+          "Small_Diameter": "50mm",
+          "Wall_Thickness": "1.9mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.20 kg"
+        },
+        "Schedule": "PN6",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AC005c6350",
+        "GUID": "123e4567-e89b-12d3-a456-426614174009"
+      }
+    ],
+    "PN8": [
+      {
+        "Size": "63mm",
+        "Desc": "Nắp chụp uPVC PN8",
+        "Type": "CAP",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "2.5mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.18 kg"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AD001d0608",
+        "GUID": "123e4567-e89b-12d3-a456-426614174010"
+      },
+      {
+        "Size": "63mm",
+        "Desc": "Cút nối uPVC PN8, 90 độ",
+        "Type": "Elbow",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "2.5mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.28 kg"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AD002d0608",
+        "GUID": "123e4567-e89b-12d3-a456-426614174011"
+      },
+      {
+        "Size": "63mm",
+        "Desc": "Tê uPVC PN8",
+        "Type": "TEE",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Outer_Diameter": "63mm",
+          "Wall_Thickness": "2.5mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.35 kg"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AD003d0608",
+        "GUID": "123e4567-e89b-12d3-a456-426614174012"
+      },
+      {
+        "Size": "63mm x 50mm",
+        "Desc": "Tê giảm uPVC PN8",
+        "Type": "Reducing Tee",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Main_Diameter": "63mm",
+          "Branch_Diameter": "50mm",
+          "Wall_Thickness": "2.5mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.32 kg"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AD004d6350",
+        "GUID": "123e4567-e89b-12d3-a456-426614174013"
+      },
+      {
+        "Size": "63mm x 50mm",
+        "Desc": "Ống giảm uPVC PN8",
+        "Type": "Reducer",
+        "Comptype": "Fitting",
+        "Material": "uPVC",
+        "DataTable": {
+          "Large_Diameter": "63mm",
+          "Small_Diameter": "50mm",
+          "Wall_Thickness": "2.5mm",
+          "Connection_Type": "Socket",
+          "Weight": "0.22 kg"
+        },
+        "Schedule": "PN8",
+        "Standard": "ISO 1452, TCVN 6151",
+        "CompCode": "AD005d6350",
+        "GUID": "123e4567-e89b-12d3-a456-426614174014"
+      }
+    ]
+  }
+}

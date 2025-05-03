@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\work\\project\\Hicas.Revit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\actions\\assignspecaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\actions\\exportspecaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\commands\\assignspeccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\commands\\exportspeccommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF2651C-7DEF-4655-9604-9DABFF97FE66}|..\\Hicas.WPF\\Hicas.WPF.csproj|d:\\work\\project\\hicas.wpf\\viewmodel\\assignspecviewmodel\\assignspecviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF2651C-7DEF-4655-9604-9DABFF97FE66}|..\\Hicas.WPF\\Hicas.WPF.csproj|d:\\work\\project\\hicas.wpf\\view\\assignspecview\\assignspectwiew.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\helpers\\revithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\revitbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\model\\storeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\model\\exportcomponentmodel\\componentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E075FE05-9484-40B1-9CF7-2C1A496BF524}|..\\Hicas.Revit.Commands\\Hicas.Revit.Commands.csproj|d:\\work\\project\\hicas.revit.commands\\helpers\\assignspechelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExportSpecAction.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Actions\\ExportSpecAction.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Actions\\ExportSpecAction.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Actions\\ExportSpecAction.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Actions\\ExportSpecAction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:42:20.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssignSpecCommand.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Commands\\AssignSpecCommand.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Commands\\AssignSpecCommand.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Commands\\AssignSpecCommand.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Commands\\AssignSpecCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:42:13.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssignSpectWiew.xaml",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.WPF\\View\\AssignSpecView\\AssignSpectWiew.xaml",
+              "RelativeDocumentMoniker": "..\\Hicas.WPF\\View\\AssignSpecView\\AssignSpectWiew.xaml",
+              "ToolTip": "D:\\work\\project\\Hicas.WPF\\View\\AssignSpecView\\AssignSpectWiew.xaml",
+              "RelativeToolTip": "..\\Hicas.WPF\\View\\AssignSpecView\\AssignSpectWiew.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T04:34:29.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignSpecViewModel.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.WPF\\ViewModel\\AssignSpecViewModel\\AssignSpecViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.WPF\\ViewModel\\AssignSpecViewModel\\AssignSpecViewModel.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.WPF\\ViewModel\\AssignSpecViewModel\\AssignSpecViewModel.cs",
+              "RelativeToolTip": "..\\Hicas.WPF\\ViewModel\\AssignSpecViewModel\\AssignSpecViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:34:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RevitBase.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\RevitBase.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\RevitBase.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\RevitBase.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\RevitBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:33:55.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComponentInfo.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Model\\ExportComponentModel\\ComponentInfo.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Model\\ExportComponentModel\\ComponentInfo.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Model\\ExportComponentModel\\ComponentInfo.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Model\\ExportComponentModel\\ComponentInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:33:23.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignSpecAction.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Actions\\AssignSpecAction.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Actions\\AssignSpecAction.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Actions\\AssignSpecAction.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Actions\\AssignSpecAction.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:26:02.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssignSpecHelper.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Helpers\\AssignSpecHelper.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Helpers\\AssignSpecHelper.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Helpers\\AssignSpecHelper.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Helpers\\AssignSpecHelper.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAApwDAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:24:30.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RevitHelper.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Helpers\\RevitHelper.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Helpers\\RevitHelper.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Helpers\\RevitHelper.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Helpers\\RevitHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:23:29.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoredData.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Model\\StoredData.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Model\\StoredData.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Model\\StoredData.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Model\\StoredData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:23:25.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExportSpecCommand.cs",
+              "DocumentMoniker": "D:\\work\\project\\Hicas.Revit.Commands\\Commands\\ExportSpecCommand.cs",
+              "RelativeDocumentMoniker": "..\\Hicas.Revit.Commands\\Commands\\ExportSpecCommand.cs",
+              "ToolTip": "D:\\work\\project\\Hicas.Revit.Commands\\Commands\\ExportSpecCommand.cs",
+              "RelativeToolTip": "..\\Hicas.Revit.Commands\\Commands\\ExportSpecCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T03:43:34.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
