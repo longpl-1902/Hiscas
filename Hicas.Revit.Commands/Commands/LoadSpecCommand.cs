@@ -7,20 +7,19 @@ using Hicas.Revit.Commands.Actions;
 namespace Hicas.Revit.Commands.Commands
 {
     [Transaction(TransactionMode.Manual)]
-    public class ExportSpecCommand : IExternalCommand
+    public class LoadSpecCommand : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             try
             {
-                ExportSpecAction action = new ExportSpecAction(commandData.Application.ActiveUIDocument);
+                LoadSpecAction action = new LoadSpecAction(commandData.Application.ActiveUIDocument);
                 action.Execute();
             }
-            catch (Exception ex)
+            catch
             {
-                TaskDialog.Show("Error", ex.Message);
+                TaskDialog.Show("Error", "Load spec failed!");
             }
-
             return Result.Succeeded;
         }
     }

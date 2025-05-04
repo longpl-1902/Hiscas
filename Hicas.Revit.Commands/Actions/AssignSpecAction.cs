@@ -4,18 +4,20 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Forms;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
+using Hicas.Revit.Commands.Definitions;
 using Hicas.Revit.Commands.Helpers;
 using Hicas.Revit.Commands.Model;
 using Hicas.Revit.Setting;
 using Hicas.WPF.Model;
 using Hicas.WPF.View.AssignSpecView;
 using Hicas.WPF.ViewModels;
-using Microsoft.Win32;
 using MVVMCore;
 using Newtonsoft.Json;
+using OpenFileDialog = System.Windows.Forms.OpenFileDialog;
 
 namespace Hicas.Revit.Commands.Actions
 {
@@ -40,14 +42,29 @@ namespace Hicas.Revit.Commands.Actions
 
         public void AssignSpecInvoke()
         {
-            if(SpecLibrary is null)
+            if (RevitBaseModel.SpecLibrary is null)
             {
                 throw new Exception("User hasn't load spec library!");
             }
 
-            var selectedPipeTypes = _viewModel.PipeTypes.Where(p => p.IsSeleted).ToList();
             var selectedFittingSpec = _viewModel.SelectedFittingSpec;
             var selectedPipeSpec = _viewModel.SelectedPipeSpec;
+
+            List<PypeTypeModel> selectedPipeTypes = new List<PypeTypeModel>();
+            if (_viewModel.IsAssignAll)
+            {
+                selectedPipeTypes = _viewModel.PipeTypes.ToList();
+            }
+            else
+            {
+                if (selectedPipeTypes.Count == 0)
+                {
+                    TaskDialog.Show("Warning", "User hasn't select any pipe type!");
+                    return;
+                }
+
+                selectedPipeTypes = _viewModel.PipeTypes.Where(p => p.IsSeleted).ToList();
+            }
 
             StoredData fittingData = new StoredData { GUID = selectedFittingSpec.GUID };
 
@@ -72,20 +89,22 @@ namespace Hicas.Revit.Commands.Actions
             OpenFileDialog fileDialog = new OpenFileDialog
             {
                 Title = "Select a JSON file",
-                Filter = "JSON Files (*.json)|*.json",
+                Filter = Definitions.Definitions.FILE_FILTER_JSON,
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
                 Multiselect = false
             };
 
-            if (fileDialog.ShowDialog() == true)
+            if (fileDialog.ShowDialog() == DialogResult.OK)
             {
                 string selectedFilePath = fileDialog.FileName;
                 string json = File.ReadAllText(selectedFilePath);
-                SpecLibrary = JsonConvert.DeserializeObject<SpecLibrary>(json);
+                RevitBaseModel.SpecLibrary = JsonConvert.DeserializeObject<SpecLibrary>(json);
 
-                _viewModel.PipeSpecs = new ObservableCollection<SpecInfo>(SpecLibrary.Pipe_Spec.SummarySpec());
-                _viewModel.FittingSpecs = new ObservableCollection<SpecInfo>(SpecLibrary.Fittings_Spec.SummarySpec());
+                _viewModel.PipeSpecs = new ObservableCollection<SpecInfo>(RevitBaseModel.SpecLibrary.Pipe_Spec.SummarySpec());
+                _viewModel.FittingSpecs = new ObservableCollection<SpecInfo>(RevitBaseModel.SpecLibrary.Fittings_Spec.SummarySpec());
             }
+
+            TaskDialog.Show("Success", "Load spec successfully!");
         }
 
         public void CancelInvoke()
@@ -102,8 +121,8 @@ namespace Hicas.Revit.Commands.Actions
 
             foreach (var element in _selectedPipes.Keys)
             {
-                var pipeSpec = AssignSpecHelper.GetSpec(element, SpecLibrary.Pipe_Spec);
-                var fittingSpec = AssignSpecHelper.GetSpec(_selectedPipes[element].FirstOrDefault(), SpecLibrary.Fittings_Spec);
+                var pipeSpec = AssignSpecHelper.GetSpec(element, RevitBaseModel.SpecLibrary.Pipe_Spec);
+                var fittingSpec = AssignSpecHelper.GetSpec(_selectedPipes[element].FirstOrDefault(), RevitBaseModel.SpecLibrary.Fittings_Spec);
                 var type = Document.GetElement(element.GetTypeId()).Name;
 
                 if (pipeSpec is null) continue;

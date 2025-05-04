@@ -42,7 +42,6 @@ namespace Hicas.WPF.ViewModels
                 _fittingSpecs = value;
                 OnPropertyChanged(nameof(FittingSpecs));
             }
-
         }
 
         public ObservableCollection<PypeTypeModel> _pipeTypes;
@@ -88,6 +87,20 @@ namespace Hicas.WPF.ViewModels
                 {
                     _isIsolate = value;
                     OnPropertyChanged(nameof(IsIsolate));
+                }
+            }
+        }
+
+        private bool _IsAssignAll;
+        public bool IsAssignAll
+        {
+            get => _IsAssignAll;
+            set
+            {
+                if (_IsAssignAll != value)
+                {
+                    _IsAssignAll = value;
+                    OnPropertyChanged(nameof(IsAssignAll));
                 }
             }
         }

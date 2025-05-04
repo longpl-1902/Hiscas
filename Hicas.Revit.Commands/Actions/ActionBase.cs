@@ -12,11 +12,10 @@ namespace Hicas.Revit.Commands.Actions
 {
     public abstract class ActionBase
     {
-        public SpecLibrary SpecLibrary { get; set; }
-        public Application Application { get; set; }
-        public UIApplication UIApplication { get; set; }
-        public UIDocument UIDocument { get; set; }
-        public Document Document { get; set; }
+        public static Application Application { get; set; }
+        public static UIApplication UIApplication { get; set; }
+        public static UIDocument UIDocument { get; set; }
+        public static Document Document { get; set; }
 
         public ActionBase(UIDocument uidocument)
         {

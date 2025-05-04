@@ -22,7 +22,7 @@ namespace Hicas.Revit.Commands.Actions
 
         public override void Execute()
         {
-            if (SpecLibrary is null)
+            if (RevitBaseModel.SpecLibrary is null)
             {
                 TaskDialog.Show("Error", "User must load library before export spec");
                 return;
@@ -33,7 +33,7 @@ namespace Hicas.Revit.Commands.Actions
             var saveDialog = new SaveFileDialog
             {
                 Title = "Save JSON File",
-                Filter = "JSON files (*.json)|*.json",
+                Filter = Definitions.Definitions.FILE_FILTER_JSON,
                 DefaultExt = ".json",
                 FileName = "output.json"
             };
@@ -75,7 +75,7 @@ namespace Hicas.Revit.Commands.Actions
 
                 if (element.Category.BuiltInCategory == BuiltInCategory.OST_PipeCurves)
                 {
-                    specInfo = RevitHelper.GetSpecById(specId, SpecLibrary.Pipe_Spec);
+                    specInfo = RevitHelper.GetSpecById(specId, RevitBaseModel.SpecLibrary.Pipe_Spec);
                     var locationCurve = element.Location as LocationCurve;
 
                     location = new PipeLocation
@@ -86,7 +86,7 @@ namespace Hicas.Revit.Commands.Actions
                 }
                 else if (element.Category.BuiltInCategory == BuiltInCategory.OST_PipeFitting)
                 {
-                    specInfo = RevitHelper.GetSpecById(specId, SpecLibrary.Fittings_Spec);
+                    specInfo = RevitHelper.GetSpecById(specId, RevitBaseModel.SpecLibrary.Fittings_Spec);
                     var position = element.Location as LocationPoint;
 
                     location = new FittingLocation

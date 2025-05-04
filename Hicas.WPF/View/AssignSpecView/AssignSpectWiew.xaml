@@ -79,14 +79,16 @@
                     <ListBox x:Name="PipeTypeListBox" 
                              ItemsSource="{Binding PipeTypes}" 
                              Margin="0,0,0,10"
-                             MinHeight="20"
-                             MaxHeight="100">
+                             Height="100">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <CheckBox Content="{Binding Path=Type}" IsChecked="{Binding Path=IsSeleted, Mode=TwoWay}"/>
                             </DataTemplate>
                         </ListBox.ItemTemplate>
                     </ListBox>
+                    <CheckBox IsChecked="{Binding IsAssignAll}"
+                              Content="Assign spec for selected pipe"
+                              VerticalAlignment="Bottom"/>
                 </StackPanel>
             </Grid>
         </GroupBox>

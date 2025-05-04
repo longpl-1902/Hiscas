@@ -10,5 +10,6 @@ namespace Hicas.Revit.Commands.Definitions
     {
         public static readonly string SCHEMA_NAME = "PIPE_SPECT";
         public static readonly string SCHEMA_GUID = "575db274-5147-4888-8629-18624224c735";
+        public static readonly string FILE_FILTER_JSON = "JSON Files (*.json)|*.json";
     }
 }

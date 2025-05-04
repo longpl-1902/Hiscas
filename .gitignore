@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Hicas.Revit.Commands/obj/Debug
+/Hicas.WPF/obj/Debug
+/Hicas.Revit/obj/Debug
+/Outcome/Debug

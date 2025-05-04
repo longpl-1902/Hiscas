@@ -4,8 +4,6 @@ using System.Linq;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.ExtensibleStorage;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.UI.Selection;
-using Hicas.Revit.Commands.Definitions;
 using Hicas.Revit.Commands.Model;
 using Hicas.Revit.Setting;
 
